@@ -200,59 +200,59 @@ nav a {
 /* mobile responsive */
 @media only screen and (max-width: 736px) {
   body {
-    max-width: 736px !important;}
+    max-width: 736px;}
   .hero-container {
-    width: 100% !important;
-    display: block !important;
+    width: 100%;
+    display: block;
   }
   .hero-grid {
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr !important;
-    grid-gap: 10px !important;
-    margin: 30px 25px !important;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin: 30px 25px;
   }
   .hero-content-left h1 {
-    font-size: 1.8em !important;
-    line-height: 1.2em !important; }
+    font-size: 1.8em;
+    line-height: 1.2em; }
   .hero-content-left p {
-    font-size: 1.2em !important;
-    line-height: 1em !important;
+    font-size: 1.2em;
+    line-height: 1em;
   }
   .hero-content-right {
-    margin-top: 10px !important;
+    margin-top: 10px;
   }
   .hero-content-right p {
-    font-size: 0.8em !important;
-    line-height: 1.5em !important;
+    font-size: 0.8em;
+    line-height: 1.5em;
   }
   .CTA-bg-row {
-    background-size: contain !important;
+    background-size: contain;
   }
   .CTA-bg-row h4 {
-    font-size: 1em !important;
-    line-height: 1.5em !important;
-    margin: 32px 20px !important;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 32px 20px;
   }
   .content {
-    padding-top: 115px !important;
-    padding-bottom: 25px !important;
+    padding-top: 115px;
+    padding-bottom: 25px;
   }
   .grid-container h4 {
-    font-size: 13px !important;
-    padding: 10px !important;
+    font-size: 13px;
+    padding: 10px;
   }
 }
 @media only screen and (min-width: 414px) {
   .hero-grid {
-    grid-template-columns: 1fr 1fr !important; }
+    grid-template-columns: 1fr 1fr; }
   .hero-content-left {
-    margin-top: 40px !important; }
+    margin-top: 40px; }
   .hero-content-right {
-    margin-top: 60px !important; }
+    margin-top: 60px; }
   .CTA-bg-row {
-    background-size: cover !important; }
+    background-size: cover; }
   .CTA-bg-row h4 {
-    margin: 16px 20px !important; }
+    margin: 16px 20px; }
   .content {
-    padding-top: 78px !important; }
+    padding-top: 78px; }
 }
