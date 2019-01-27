@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   width: 100%;
-  display: inline-block;
+  display: block;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
@@ -107,12 +107,12 @@ nav a {
   display: block;
   background-image: url('https://vilacron.com/wp-content/uploads/2019/01/students.png');
   background-position: center bottom;
-  background-size: contain;
-  background-repeat: none;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-bg-wrap {
   background-color: rgba(0, 0, 0, 0.8);
-  display: block;
+  display: grid;
   position: relative;
   height: 80vh;
 }
@@ -202,5 +202,34 @@ nav a {
   body {
     max-width: 736px !important;}
   .hero-container {
-    max-width: 736px !important;}
+    width: 100% !important;
+    display: block !important;
   }
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    grid-gap: 10px !important;
+    margin: 30px 25px !important;
+  }
+  .hero-content-left h1 {
+    font-size: 1.8em !important;
+    line-height: 1.2em !important; }
+  .hero-content-left p {
+    font-size: 1.2em !important;
+    line-height: 1em !important;
+  }
+  .hero-content-right {
+    margin-top: 10px !important;
+  }
+  .hero-content-right p {
+    font-size: 0.8em !important;
+  }
+  .CTA-bg-row {
+    background-size: contain !important;
+  }
+  .CTA-bg-row h4 {
+    font-size: 1.2em !important;
+    margin: 10px 20px !important;
+  } }
+    
+   
