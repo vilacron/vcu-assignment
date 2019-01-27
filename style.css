@@ -229,7 +229,18 @@ nav a {
   }
   .CTA-bg-row h4 {
     font-size: 1.2em !important;
-    margin: 10px 20px !important;
-  } }
+    line-height: 1.5em !important;
+    margin: 32px 20px !important;
+  }
+  .content {
+    padding-top: 115px !important;
+    padding-bottom: 25px !important;
+  }
+  .grid-container h4 {
+    font-size: 13px !important;
+    line-height: 1.5em !important;
+    padding: 10px !important;
+  }
+}
     
    
