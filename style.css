@@ -198,7 +198,7 @@ nav a {
 }
 
 /* mobile responsive */
-@media only screen and (min-width: 414px) and (max-width: 736px) {
+@media only screen and (max-width: 736px) {
   body {
     max-width: 736px !important;}
   .hero-container {
@@ -242,5 +242,17 @@ nav a {
     padding: 10px !important;
   }
 }
-    
-   
+@media only screen and (max-width: 414px) {
+  .hero-grid {
+    grid-template-columns: 1fr 1fr !important; }
+  .hero-content-left {
+    margin-top: 40px !important; }
+  .hero-content-right {
+    margin-top: 60px !important; }
+  .CTA-bg-row {
+    background-size: cover !important; }
+  .CTA-bg-row h4 {
+    margin: 16px 20px !important; }
+  .content {
+    padding-top: 78px !important; }
+}
