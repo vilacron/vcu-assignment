@@ -31,7 +31,6 @@ h4 {
   font-weight: inherit;
 }
 
-
 /* navbar */
 :root { --background: rgba(0, 0, 0, 0.8); }
 .VCULead {
@@ -118,7 +117,6 @@ nav a {
   height: 80vh;
 }
 
-
 /* CTA */
 .CTA-container {
   display: block;
@@ -139,8 +137,6 @@ nav a {
   margin: 37px;
   text-align: center;
 }
-
-
 
 /* container */
 .content {
@@ -177,7 +173,6 @@ nav a {
   grid-row-start: 1;
   grid-row-end: 8;
   background-color: #FFB300;
-  
 }
 .item3 {
   grid-column-start: 1;
@@ -185,7 +180,6 @@ nav a {
   grid-row-start: 2;
   grid-row-end: 12;
   background-color: #FFB300;
-  
 }
 .item4 {
   grid-column-start: 2;
@@ -193,7 +187,6 @@ nav a {
   grid-row-start: 8;
   grid-row-end: 12;
   background-color: #FFB300;
-  
 }
 .item5 {
   grid-column-start: 3;
@@ -201,5 +194,12 @@ nav a {
   grid-row-start: 8;
   grid-row-end: 12;
   background-color: #FFB300;
-  
 }
+
+/* mobile responsive */
+@media only screen and (max-width: 736px) {
+  body {
+    max-width: 736px !important;}
+  .hero-container {
+    max-width: 736px !important;}
+  }
