@@ -10,7 +10,7 @@ body {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.8em;
-  line-height: 72px;
+  line-height: 1.2em;
   font-weight: 700;
   color: white;
 }
@@ -102,7 +102,7 @@ nav a {
 }
 .hero-content-right {
   position: relative;
-  padding-top: 6em;
+  padding-top: 7.8em;
 }
 .hero-container {
   display: block;
@@ -140,13 +140,11 @@ nav a {
 
 /* container */
 .content {
-  padding-top: 130px;
+  padding-top: 8.4em;
   padding-bottom: 10px;
   margin: 0 10px;
 }
-.grid-container > .item {
-  display: flex;
-}
+
 .grid-container h4 {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3em;
@@ -163,7 +161,6 @@ nav a {
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
   height: 30em;
-  padding-top: 5.4em;
 }
 .item1 {
   grid-column-start: 1;
