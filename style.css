@@ -9,15 +9,15 @@ body {
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 66px;
+  font-size: 2.8em;
   line-height: 72px;
   font-weight: 700;
   color: white;
 }
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 1.1em;
+  line-height: 1.6em;
   color: white;
 }
 h4 {
@@ -94,14 +94,15 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 100px;
+  height: 36em;
 }
 .hero-content-left {
   position: relative;
-  margin-top: 80px;
+  padding-top: 6em;
 }
 .hero-content-right {
   position: relative;
-  margin-top: 120px;
+  padding-top: 6em;
 }
 .hero-container {
   display: block;
@@ -125,7 +126,6 @@ nav a {
   background-image: url('https://vilacron.com/wp-content/uploads/2019/01/gradient.png');
   background-position: center;
   position: absolute;
-  height: 13%;
   width: 100%;
   background-size: cover;
 }
@@ -149,16 +149,21 @@ nav a {
 }
 .grid-container h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: bold;
   text-align: center;
-  line-height: 28px;
+  line-height: 1.3em;
+  cursor: pointer;
+}
+.grid-container h4:hover {
+  color: white;
 }
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5px;
-  height: 300px;
+  height: 30em;
+  padding-top: 5.4em;
 }
 .item1 {
   grid-column-start: 1;
@@ -226,6 +231,7 @@ nav a {
   }
   .CTA-bg-row {
     background-size: contain;
+    height: 4.6em;
   }
   .CTA-bg-row h4 {
     font-size: 1em;
@@ -240,18 +246,4 @@ nav a {
     font-size: 13px;
     padding: 10px;
   }
-}
-@media only screen and (min-width: 414px) {
-  .hero-grid {
-    grid-template-columns: 1fr 1fr; }
-  .hero-content-left {
-    margin-top: 40px; }
-  .hero-content-right {
-    margin-top: 60px; }
-  .CTA-bg-row {
-    background-size: cover; }
-  .CTA-bg-row h4 {
-    margin: 16px 20px; }
-  .content {
-    padding-top: 78px; }
 }
