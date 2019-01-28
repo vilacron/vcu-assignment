@@ -221,6 +221,7 @@ nav a {
   }
   .hero-content-right {
     margin-top: 10px;
+    padding-top: 0px;
   }
   .hero-content-right p {
     font-size: 0.8em;
@@ -236,9 +237,10 @@ nav a {
     margin: 32px 20px;
   }
   .content {
-    padding-top: 115px;
     padding-bottom: 25px;
   }
+  .grid-container {
+    height: 15em;
   .grid-container h4 {
     font-size: 13px;
     padding: 10px;
