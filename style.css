@@ -237,10 +237,9 @@ nav a {
     margin: 32px 20px;
   }
   .content {
+    padding-top: 6.2em;
     padding-bottom: 25px;
   }
-  .grid-container {
-    height: 15em;
   .grid-container h4 {
     font-size: 13px;
     padding: 10px;
